@@ -1,177 +1,143 @@
-# Contributing to the Firebase FriendlyChat Codelab
+# Contributing to React Static Boilerplate
 
-We'd love for you to contribute to our source code and to make the Firebase FriendlyChat Codelab even better than it is today! Here are the guidelines we'd like you to follow:
+♥ **React Static Boilerplate** and want to get involved? Thanks! There are plenty of ways you can
+help!
 
- - [Code of Conduct](#coc)
- - [Question or Problem?](#question)
- - [Issues and Bugs](#issue)
- - [Feature Requests](#feature)
- - [Submission Guidelines](#submit)
- - [Coding Rules](#rules)
- - [Signing the CLA](#cla)
+Please take a moment to review this document in order to make the contribution process easy and
+effective for everyone involved.
 
-## <a name="coc"></a> Code of Conduct
+Following these guidelines helps to communicate that you respect the time of the developers managing
+and developing this open source project. In return, they should reciprocate that respect in
+addressing your issue or assessing patches and features.
 
-As contributors and maintainers of the Firebase FriendlyChat Codelab project, we pledge to respect everyone who contributes by posting issues, updating documentation, submitting pull requests, providing feedback in comments, and any other activities.
 
-Communication through any of Firebase's channels (GitHub, StackOverflow, Google+, Twitter, etc.) must be constructive and never resort to personal attacks, trolling, public or private harassment, insults, or other unprofessional conduct.
+## Using the issue tracker
 
-We promise to extend courtesy and respect to everyone involved in this project regardless of gender, gender identity, sexual orientation, disability, age, race, ethnicity, religion, or level of experience. We expect anyone contributing to the project to do the same.
+The [issue tracker](https://github.com/kriasoft/react-static-boilerplate/issues) is the preferred
+channel for [bug reports](#bugs), [features requests](#features) and [submitting pull
+requests](#pull-requests), but please respect the following restrictions:
 
-If any member of the community violates this code of conduct, the maintainers of the Firebase  Android Quickstarts project may take action, removing issues, comments, and PRs or blocking accounts as deemed appropriate.
+* Please **do not** use the issue tracker for personal support requests (use [Stack
+  Overflow](https://stackoverflow.com/questions/tagged/react-starter-kit)).
 
-If you are subject to or witness unacceptable behavior, or have any other concerns, please drop us a line at nivco@google.com.
+* Please **do not** derail or troll issues. Keep the discussion on topic and respect the opinions
+  of others.
 
-## <a name="question"></a> Got a Question or Problem?
+* Please **do not** open issues or pull requests regarding the code in
+  [`React`](https://github.com/facebook/react),
+  [`Redux`](https://github.com/reactjs/redux),
+  [`Babel`](https://github.com/babel/babel) or
+  [`Webpack`](https://github.com/webpack/webpack) (open them in their respective repositories).
 
-If you have questions about how to use the Firebase FriendlyChat Codelab, please direct these to [StackOverflow][stackoverflow] and use the `firebase` tag. We are also available on GitHub issues.
 
-If you feel that we're missing an important bit of documentation, feel free to
-file an issue so we can help. Here's an example to get you started:
+<a name="bugs"></a>
+## Bug reports
 
-```
-What are you trying to do or find out more about?
+A bug is a _demonstrable problem_ that is caused by the code in the repository. Good bug reports are
+extremely helpful - thank you!
 
-Where have you looked?
+Guidelines for bug reports:
 
-Where did you expect to find this information?
-```
+1. **Use the GitHub issue search** &mdash; check if the issue has already been reported.
 
-## <a name="issue"></a> Found an Issue?
-If you find a bug in the source code or a mistake in the documentation, you can help us by
-submitting an issue to our [GitHub Repository][github]. Even better you can submit a Pull Request
-with a fix.
+2. **Check if the issue has been fixed** &mdash; try to reproduce it using the latest `master` or
+   development branch in the repository.
 
-See [below](#submit) for some guidelines.
+3. **Isolate the problem** &mdash; ideally create a [reduced test
+   case](https://css-tricks.com/reduced-test-cases/) and a live example.
 
-## <a name="submit"></a> Submission Guidelines
+A good bug report shouldn't leave others needing to chase you up for more information. Please try to
+be as detailed as possible in your report. What is your environment? What steps will reproduce the
+issue? What browser(s) and OS experience the problem? What would you expect to be the outcome? All
+these details will help people to fix any potential bugs.
 
-### Submitting an Issue
-Before you submit your issue search the archive, maybe your question was already answered.
+Example:
 
-If your issue appears to be a bug, and hasn't been reported, open a new issue.
-Help us to maximize the effort we can spend fixing issues and adding new
-features, by not reporting duplicate issues.  Providing the following information will increase the
-chances of your issue being dealt with quickly:
+> Short and descriptive example bug report title
+>
+> A summary of the issue and the browser/OS environment in which it occurs. If suitable, include the
+> steps required to reproduce the bug.
+>
+> 1. This is the first step
+> 2. This is the second step
+> 3. Further steps, etc.
+>
+> `<url>` - a link to the reduced test case
+>
+> Any other information you want to share that is relevant to the issue being reported. This might
+> include the lines of code that you have identified as causing the bug, and potential solutions
+> (and your opinions on their merits).
 
-* **Overview of the Issue** - if an error is being thrown a non-minified stack trace helps
-* **Motivation for or Use Case** - explain why this is a bug for you
-* **Browsers and Operating System** - is this a problem with all browsers or only IE9?
-* **Reproduce the Error** - provide a live example (using JSBin) or a unambiguous set of steps.
-* **Related Issues** - has a similar issue been reported before?
-* **Suggest a Fix** - if you can't fix the bug yourself, perhaps you can point to what might be
-  causing the problem (line of code or commit)
 
-**If you get help, help others. Good karma rulez!**
+<a name="features"></a>
+## Feature requests
 
-Here's a template to get you started:
+Feature requests are welcome. But take a moment to find out whether your idea fits with the scope
+and aims of the project. It's up to *you* to make a strong case to convince the project's developers
+of the merits of this feature. Please provide as much detail and context as possible.
 
-```
-Browser:
-Browser version:
-Operating system:
-Operating system version:
 
-What steps will reproduce the problem:
-1.
-2.
-3.
+<a name="pull-requests"></a>
+## Pull requests
 
-What is the expected result?
+Good pull requests - patches, improvements, new features - are a fantastic help. They should remain
+focused in scope and avoid containing unrelated commits.
 
-What happens instead of that?
+**Please ask first** before embarking on any significant pull request (e.g. implementing features,
+refactoring code, porting to a different language), otherwise you risk spending a lot of time
+working on something that the project's developers might not want to merge into the project.
 
-Please provide any other information below, and attach a screenshot if possible.
-```
+Please adhere to the coding conventions used throughout a project (indentation, accurate comments,
+etc.) and any other requirements (such as test coverage).
 
-### Submitting a Pull Request
-Before you submit your pull request consider the following guidelines:
+Adhering to the following process is the best way to get your work included in the project:
 
-* Search [GitHub](https://github.com/firebase/codelab-friendlychat/pulls) for an open or closed Pull Request
-  that relates to your submission. You don't want to duplicate effort.
-* Please sign our [Contributor License Agreement (CLA)](#cla) before sending pull
-  requests. We cannot accept code without this.
-* Make your changes in a new git branch:
+1. [Fork](https://help.github.com/articles/fork-a-repo/) the project, clone your fork, and configure
+   the remotes:
 
-     ```shell
-     git checkout -b my-fix-branch master
-     ```
+   ```bash
+   # Clone your fork of the repo into the current directory
+   git clone https://github.com/<your-username>/react-static-boilerplate.git
+   # Navigate to the newly cloned directory
+   cd react-static-boilerplate
+   # Assign the original repo to a remote called "upstream"
+   git remote add upstream https://github.com/kriasoft/react-static-boilerplate.git
+   ```
 
-* Create your patch, **including appropriate test cases**.
-* Follow our [Coding Rules](#rules).
-* Avoid checking in files that shouldn't be tracked (e.g `node_modules`, `gulp-cache`, `.tmp`, `.idea`). We recommend using a [global](#global-gitignore) gitignore for this.
-* Make sure **not** to include a recompiled version of the files found in `/css` and `/js` as part of your PR. We will generate these automatically.
-* Commit your changes using a descriptive commit message.
+2. If you cloned a while ago, get the latest changes from upstream:
 
-     ```shell
-     git commit -a
-     ```
-  Note: the optional commit `-a` command line option will automatically "add" and "rm" edited files.
+   ```bash
+   git checkout master
+   git pull upstream master
+   ```
 
-* Build your changes locally to ensure all the tests pass:
+3. Create a new topic branch (off the main project development branch) to contain your feature,
+   change, or fix:
 
-    ```shell
-   gulp
-    ```
+   ```bash
+   git checkout -b <topic-branch-name>
+   ```
 
-* Push your branch to GitHub:
+4. Commit your changes in logical chunks. Please adhere to these [git commit message
+   guidelines](http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html) or your code is
+   unlikely be merged into the main project. Use Git's [interactive
+   rebase](https://help.github.com/articles/about-git-rebase/) feature to tidy up your commits
+   before making them public.
 
-    ```shell
-    git push origin my-fix-branch
-    ```
+5. Locally merge (or rebase) the upstream development branch into your topic branch:
 
-* In GitHub, send a pull request to `codelab-friendlychat:master`.
-* If we suggest changes then:
-  * Make the required updates.
-  * Rebase your branch and force push to your GitHub repository (this will update your Pull Request):
+   ```bash
+   git pull [--rebase] upstream master
+   ```
 
-    ```shell
-    git rebase master -i
-    git push origin my-fix-branch -f
-    ```
+6. Push your topic branch up to your fork:
 
-That's it! Thank you for your contribution!
+   ```bash
+   git push origin <topic-branch-name>
+   ```
 
-#### After your pull request is merged
+7. [Open a Pull Request](https://help.github.com/articles/using-pull-requests/) with a clear title
+   and description.
 
-After your pull request is merged, you can safely delete your branch and pull the changes
-from the main (upstream) repository:
-
-* Delete the remote branch on GitHub either through the GitHub Android UI or your local shell as follows:
-
-    ```shell
-    git push origin --delete my-fix-branch
-    ```
-
-* Check out the master branch:
-
-    ```shell
-    git checkout master -f
-    ```
-
-* Delete the local branch:
-
-    ```shell
-    git branch -D my-fix-branch
-    ```
-
-* Update your master with the latest upstream version:
-
-    ```shell
-    git pull --ff upstream master
-    ```
-
-## <a name="cla"></a> Signing the CLA
-
-Please sign our [Contributor License Agreement][google-cla] (CLA) before sending pull requests. For any code
-changes to be accepted, the CLA must be signed. It's a quick process, we promise!
-
-*This guide was inspired by the [AngularJS contribution guidelines](https://github.com/angular/angular.js/blob/master/CONTRIBUTING.md).*
-
-[github]: https://github.com/firebase/friendlychat
-[google-cla]: https://cla.developers.google.com
-[js-style-guide]: http://google.github.io/styleguide/javascriptguide.xml
-[py-style-guide]: http://google.github.io/styleguide/pyguide.html
-[jsbin]: http://jsbin.com/
-[stackoverflow]: http://stackoverflow.com/questions/tagged/firebase
-[global-gitignore]: https://help.github.com/articles/ignoring-files/#create-a-global-gitignore
+**IMPORTANT**: By submitting a patch, you agree to allow the project owners to license your work
+under the terms of the [MIT License](LICENSE.txt).
